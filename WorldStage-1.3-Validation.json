@@ -1,0 +1,60 @@
+{
+  "venues": 230,
+  "categories": 10,
+  "impulseSamples": 86814,
+  "wetOnlyChecks": [
+    {
+      "mode": "convolution",
+      "wetRms": 0.11359430472135838,
+      "tailRms": 0.037295396292880034
+    },
+    {
+      "mode": "compatibility",
+      "wetRms": 0.056708227123878,
+      "tailRms": 0.019610403401174755
+    }
+  ],
+  "wetTailVerified": true,
+  "fullWetRemovesDry": true,
+  "decodedFilePeak": 0.06422508507966995,
+  "liveGraphChecks": [
+    {
+      "mode": "convolution",
+      "wetRms": 0.6017249699888229,
+      "outputPeak": 0.3333791494369507,
+      "dryGain": 6.123234262925839e-17,
+      "tailRms": 0.6259252284758516
+    },
+    {
+      "mode": "compatibility",
+      "wetRms": 0.34157630420504176,
+      "outputPeak": 0.3931224048137665,
+      "dryGain": 6.123234262925839e-17,
+      "tailRms": 0.05983391197192564
+    }
+  ],
+  "liveWetPathVerified": true,
+  "bypassWorks": true,
+  "mutedPeak": 0,
+  "crowdPeak": 0.03669164702296257,
+  "searchMatches": 5,
+  "cathedralMatches": 31,
+  "stadiumPresets": 36,
+  "stereoIR": true,
+  "importedIRWorks": true,
+  "simulationRestored": true,
+  "noExternalBridge": true,
+  "noStreamingControls": true,
+  "ok": true,
+  "portableExitCode": 0,
+  "regressionTests": {
+    "passed": 4,
+    "failed": 0
+  },
+  "testedArtifact": "WorldStage-1.3.0-Windows.exe",
+  "notVerified": [
+    "User hardware and Windows output routing",
+    "Subjective listening quality",
+    "Accuracy against real venue measurements"
+  ]
+}

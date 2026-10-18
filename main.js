@@ -8,6 +8,6 @@ app.whenReady().then(()=>{
  w.webContents.setWindowOpenHandler(()=>({action:'deny'}));
  w.webContents.on('will-navigate',e=>e.preventDefault());
  w.loadFile(path.join(__dirname,'index.html'));
- if(process.argv.includes('--smoke-test')) w.webContents.once('did-finish-load',async()=>{try{const result=await w.webContents.executeJavaScript('runSelfTest()',true);console.log('SELFTEST '+JSON.stringify(result));const fs=require('fs');fs.writeFileSync(path.join(app.getPath('temp'),'WorldStage-1.2-Preview.png'),(await w.webContents.capturePage()).toPNG());fs.writeFileSync(path.join(app.getPath('temp'),'WorldStage-1.2-Validation.json'),JSON.stringify(result,null,2));app.exit(result.ok?0:1);}catch(e){console.error(e);app.exit(1);}});
+ if(process.argv.includes('--smoke-test')) w.webContents.once('did-finish-load',async()=>{try{const result=await w.webContents.executeJavaScript('runSelfTest()',true);console.log('SELFTEST '+JSON.stringify(result));const fs=require('fs');fs.writeFileSync(path.join(app.getPath('temp'),'WorldStage-1.3-Preview.png'),(await w.webContents.capturePage()).toPNG());fs.writeFileSync(path.join(app.getPath('temp'),'WorldStage-1.3-Validation.json'),JSON.stringify(result,null,2));app.exit(result.ok?0:1);}catch(e){console.error(e);app.exit(1);}});
 });
 app.on('window-all-closed',()=>app.quit());

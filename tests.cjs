@@ -1,5 +1,7 @@
 const test=require('node:test'),assert=require('node:assert/strict'),path=require('node:path'),fs=require('node:fs'),crypto=require('node:crypto');
 const root=__dirname;
+const {calibrateChannels}=require('./reverb-engine');
+test('reverb response calibration produces usable finite energy and rejects silence',()=>{const input=[Float32Array.from({length:100},()=>.1),Float32Array.from({length:100},()=>.1)],output=calibrateChannels(input);const e=output[0].reduce((s,x)=>s+x*x,0);assert(Math.abs(e-.49)<.00001);assert.equal(input[0][0],Math.fround(.1));assert.throws(()=>calibrateChannels([new Float32Array(100)]),/silent/);assert.throws(()=>calibrateChannels([Float32Array.of(NaN)]),/Invalid/);});
 const A=require(path.join(root,'acoustics.js'));
 const venues=JSON.parse(fs.readFileSync(path.join(root,'venues.json'))).filter(v=>v.type==='Football stadium');
 const energy=channels=>channels.reduce((sum,ch)=>sum+ch.reduce((s,n)=>s+n*n,0),0);

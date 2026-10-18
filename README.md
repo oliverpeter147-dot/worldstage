@@ -1,23 +1,18 @@
-# WorldStage 1.2
+# WorldStage 1.3
 
-Windows music playback with simulated venue acoustics and audience immersion.
+Windows music playback with venue acoustics and audience immersion.
 
 **[Download the latest Windows x64 app](https://github.com/oliverpeter147-dot/worldstage/releases/latest)**
 
+## Reverb workaround
+
+Open a music file, click **Make reverb audible**, then Play. The independent Compatibility reverb engine is selected by default. Sound check plays a short chord so you can hear the tail. Input and wet-output meters help diagnose routing.
+
+Version 1.3 fixes the wet/dry blend, calibrates generated responses, adds wet boost, and verifies wet-only music output and reverb tails. Choose Convolution for the geometry-based venue response; imported WAV responses use it automatically.
+
 ## Features
 
-- 230 worldwide venue presets and locally saved custom venues.
-- 36 distinct virtual stadium scenes with delayed stand reflections, roof enclosure, listening position and audience absorption.
-- Measured mono/stereo WAV impulse-response import.
-- Local music playback and explicitly selected live audio inputs.
-- Adjustable crowd ambience, applause and your own crowd recordings.
-- Offline operation without an account.
-
-Version 1.2 removes the streaming-service integration introduced in 1.1.
-
-## Acoustic scope
-
-Bundled presets are estimated virtual scenes, not acoustically verified reconstructions of the named venues. Import a measured response for a specific venue. Venue names imply no affiliation.
+230 venue presets, estimated stadium scenes, measured impulse-response import, local file playback, live inputs, crowd ambience and custom venues. No account required. Venue acoustics are approximate; the Compatibility engine uses modeled decay rather than individual stadium reflection paths.
 
 ## Build and tests
 
@@ -28,6 +23,4 @@ npm start
 npm run dist
 ```
 
-Requires Node.js and npm. Uses Electron 44.9.0 and electron-builder 26.0.12. Three acoustic regression tests are included. The Windows portable build also passes audio and interface checks; see [validation](WorldStage-1.2-Validation.json). Physical audio input devices and acoustic accuracy against venue measurements remain unverified.
-
-Read [the guide](WorldStage-1.2-Guide.md) for setup and measured-response import. The app is an unsigned portable Windows x64 build.
+Uses Electron 44.9.0 and electron-builder 26.0.12. Four regression tests and wet-only/tail playback checks pass. Read [the guide](WorldStage-1.3-Guide.md) and [validation report](WorldStage-1.3-Validation.json). Unsigned portable Windows x64 build.
