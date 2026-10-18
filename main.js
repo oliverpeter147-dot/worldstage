@@ -1,23 +1,13 @@
-const {app,BrowserWindow,session,ipcMain,shell}=require('electron');
+const {app,BrowserWindow,session}=require('electron');
 const path=require('node:path');
 const {pathToFileURL}=require('node:url');
-const {SpotifyService}=require('./spotify-service');
-let spotify;
 app.whenReady().then(()=>{
  const uiURL=pathToFileURL(path.join(__dirname,'index.html')).href;
  session.defaultSession.setPermissionRequestHandler((wc,permission,callback)=>callback(permission==='media'&&wc.getURL()===uiURL));
- const w=new BrowserWindow({width:1440,height:1020,minWidth:1040,minHeight:760,backgroundColor:'#101518',autoHideMenuBar:true,webPreferences:{preload:path.join(__dirname,'preload.js'),nodeIntegration:false,contextIsolation:true,sandbox:true}});
- spotify=new SpotifyService({openExternal:url=>shell.openExternal(url),notify:data=>{if(!w.isDestroyed())w.webContents.send('spotify:update',data);}});
- const trusted=e=>{if(e.sender!==w.webContents||e.senderFrame?.url!==uiURL)throw Error('Untrusted application frame.');};
- ipcMain.handle('spotify:connect',(e,id)=>{trusted(e);return spotify.connect(id);});
- ipcMain.handle('spotify:disconnect',e=>{trusted(e);return spotify.disconnect();});
- ipcMain.handle('spotify:state',e=>{trusted(e);return spotify.state();});
- ipcMain.handle('spotify:command',(e,action,options)=>{trusted(e);return spotify.command(action,options);});
- ipcMain.handle('spotify:open',async(e,target)=>{trusted(e);const urls={desktop:'spotify:',web:'https://open.spotify.com/',dashboard:'https://developer.spotify.com/dashboard'};let url=urls[target];if(!url&&typeof target==='string'&&/^https:\/\/open\.spotify\.com\/(?:intl-[a-z]+\/)?(?:track|album|playlist)\/[A-Za-z0-9]{22}(?:\?.*)?$/.test(target))url=target;if(!url)throw Error('Unsupported Spotify link.');await shell.openExternal(url);return {ok:true};});
- w.on('closed',()=>spotify.disconnect());
+ const w=new BrowserWindow({width:1440,height:1020,minWidth:1040,minHeight:760,backgroundColor:'#101518',autoHideMenuBar:true,webPreferences:{nodeIntegration:false,contextIsolation:true,sandbox:true}});
  w.webContents.setWindowOpenHandler(()=>({action:'deny'}));
  w.webContents.on('will-navigate',e=>e.preventDefault());
  w.loadFile(path.join(__dirname,'index.html'));
- if(process.argv.includes('--smoke-test')) w.webContents.once('did-finish-load',async()=>{try{const result=await w.webContents.executeJavaScript('runSelfTest()',true);console.log('SELFTEST '+JSON.stringify(result));const fs=require('fs');fs.writeFileSync(path.join(app.getPath('temp'),'WorldStage-1.1-Preview.png'),(await w.webContents.capturePage()).toPNG());fs.writeFileSync(path.join(app.getPath('temp'),'WorldStage-1.1-Validation.json'),JSON.stringify(result,null,2));app.exit(result.ok?0:1);}catch(e){console.error(e);app.exit(1);}});
+ if(process.argv.includes('--smoke-test')) w.webContents.once('did-finish-load',async()=>{try{const result=await w.webContents.executeJavaScript('runSelfTest()',true);console.log('SELFTEST '+JSON.stringify(result));const fs=require('fs');fs.writeFileSync(path.join(app.getPath('temp'),'WorldStage-1.2-Preview.png'),(await w.webContents.capturePage()).toPNG());fs.writeFileSync(path.join(app.getPath('temp'),'WorldStage-1.2-Validation.json'),JSON.stringify(result,null,2));app.exit(result.ok?0:1);}catch(e){console.error(e);app.exit(1);}});
 });
 app.on('window-all-closed',()=>app.quit());

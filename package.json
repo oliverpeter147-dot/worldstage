@@ -1,6 +1,6 @@
 {
   "name": "worldstage",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Venue acoustics and procedural audience immersion",
   "author": "WorldStage",
   "main": "main.js",
@@ -26,10 +26,7 @@
       "app.js",
       "venues.json",
       "icon.ico",
-      "preload.js",
-      "acoustics.js",
-      "spotify-service.js",
-      "spotify-ui.js"
+      "acoustics.js"
     ],
     "win": {
       "target": "portable",
@@ -37,7 +34,7 @@
       "icon": "icon.ico"
     },
     "portable": {
-      "artifactName": "WorldStage-1.1.0-Windows.exe"
+      "artifactName": "WorldStage-1.2.0-Windows.exe"
     },
     "compression": "normal"
   }

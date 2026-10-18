@@ -1,0 +1,24 @@
+{
+  "venues": 230,
+  "categories": 10,
+  "impulseSamples": 86814,
+  "decodedFilePeak": 0.27479737997055054,
+  "bypassWorks": true,
+  "mutedPeak": 0,
+  "crowdPeak": 0.031306590884923935,
+  "searchMatches": 5,
+  "cathedralMatches": 31,
+  "stadiumPresets": 36,
+  "stereoIR": true,
+  "importedIRWorks": true,
+  "simulationRestored": true,
+  "noExternalBridge": true,
+  "noStreamingControls": true,
+  "ok": true,
+  "portableExitCode": 0,
+  "acousticTests": {
+    "passed": 3,
+    "failed": 0
+  },
+  "testedArtifact": "WorldStage-1.2.0-Windows.exe"
+}
