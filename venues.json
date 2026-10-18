@@ -1,0 +1,1152 @@
+[
+  {
+    "name": "Wembley Stadium",
+    "location": "London, United Kingdom",
+    "type": "Football stadium"
+  },
+  {
+    "name": "Old Trafford",
+    "location": "Manchester, United Kingdom",
+    "type": "Football stadium"
+  },
+  {
+    "name": "Anfield",
+    "location": "Liverpool, United Kingdom",
+    "type": "Football stadium"
+  },
+  {
+    "name": "Emirates Stadium",
+    "location": "London, United Kingdom",
+    "type": "Football stadium"
+  },
+  {
+    "name": "Tottenham Hotspur Stadium",
+    "location": "London, United Kingdom",
+    "type": "Football stadium"
+  },
+  {
+    "name": "Celtic Park",
+    "location": "Glasgow, United Kingdom",
+    "type": "Football stadium"
+  },
+  {
+    "name": "Hampden Park",
+    "location": "Glasgow, United Kingdom",
+    "type": "Football stadium"
+  },
+  {
+    "name": "Principality Stadium",
+    "location": "Cardiff, United Kingdom",
+    "type": "Football stadium"
+  },
+  {
+    "name": "Stade de France",
+    "location": "Saint-Denis, France",
+    "type": "Football stadium"
+  },
+  {
+    "name": "Santiago Bernabéu",
+    "location": "Madrid, Spain",
+    "type": "Football stadium"
+  },
+  {
+    "name": "Camp Nou",
+    "location": "Barcelona, Spain",
+    "type": "Football stadium"
+  },
+  {
+    "name": "Estádio da Luz",
+    "location": "Lisbon, Portugal",
+    "type": "Football stadium"
+  },
+  {
+    "name": "San Siro",
+    "location": "Milan, Italy",
+    "type": "Football stadium"
+  },
+  {
+    "name": "Stadio Olimpico",
+    "location": "Rome, Italy",
+    "type": "Football stadium"
+  },
+  {
+    "name": "Allianz Arena",
+    "location": "Munich, Germany",
+    "type": "Football stadium"
+  },
+  {
+    "name": "Signal Iduna Park",
+    "location": "Dortmund, Germany",
+    "type": "Football stadium"
+  },
+  {
+    "name": "Olympiastadion",
+    "location": "Berlin, Germany",
+    "type": "Football stadium"
+  },
+  {
+    "name": "Johan Cruijff ArenA",
+    "location": "Amsterdam, Netherlands",
+    "type": "Football stadium"
+  },
+  {
+    "name": "Maracanã",
+    "location": "Rio de Janeiro, Brazil",
+    "type": "Football stadium"
+  },
+  {
+    "name": "La Bombonera",
+    "location": "Buenos Aires, Argentina",
+    "type": "Football stadium"
+  },
+  {
+    "name": "Estadio Monumental",
+    "location": "Buenos Aires, Argentina",
+    "type": "Football stadium"
+  },
+  {
+    "name": "Estadio Azteca",
+    "location": "Mexico City, Mexico",
+    "type": "Football stadium"
+  },
+  {
+    "name": "Rose Bowl",
+    "location": "Pasadena, United States",
+    "type": "Football stadium"
+  },
+  {
+    "name": "MetLife Stadium",
+    "location": "East Rutherford, United States",
+    "type": "Football stadium"
+  },
+  {
+    "name": "Mercedes-Benz Stadium",
+    "location": "Atlanta, United States",
+    "type": "Football stadium"
+  },
+  {
+    "name": "FNB Stadium",
+    "location": "Johannesburg, South Africa",
+    "type": "Football stadium"
+  },
+  {
+    "name": "Cairo International Stadium",
+    "location": "Cairo, Egypt",
+    "type": "Football stadium"
+  },
+  {
+    "name": "Lusail Stadium",
+    "location": "Lusail, Qatar",
+    "type": "Football stadium"
+  },
+  {
+    "name": "King Fahd International Stadium",
+    "location": "Riyadh, Saudi Arabia",
+    "type": "Football stadium"
+  },
+  {
+    "name": "Salt Lake Stadium",
+    "location": "Kolkata, India",
+    "type": "Football stadium"
+  },
+  {
+    "name": "Japan National Stadium",
+    "location": "Tokyo, Japan",
+    "type": "Football stadium"
+  },
+  {
+    "name": "Seoul World Cup Stadium",
+    "location": "Seoul, South Korea",
+    "type": "Football stadium"
+  },
+  {
+    "name": "Beijing National Stadium",
+    "location": "Beijing, China",
+    "type": "Football stadium"
+  },
+  {
+    "name": "Melbourne Cricket Ground",
+    "location": "Melbourne, Australia",
+    "type": "Football stadium"
+  },
+  {
+    "name": "Stadium Australia",
+    "location": "Sydney, Australia",
+    "type": "Football stadium"
+  },
+  {
+    "name": "Eden Park",
+    "location": "Auckland, New Zealand",
+    "type": "Football stadium"
+  },
+  {
+    "name": "Glastonbury Festival",
+    "location": "Pilton, United Kingdom",
+    "type": "Festival"
+  },
+  {
+    "name": "Reading Festival",
+    "location": "Reading, United Kingdom",
+    "type": "Festival"
+  },
+  {
+    "name": "Download Festival",
+    "location": "Donington Park, United Kingdom",
+    "type": "Festival"
+  },
+  {
+    "name": "Isle of Wight Festival",
+    "location": "Newport, United Kingdom",
+    "type": "Festival"
+  },
+  {
+    "name": "Creamfields",
+    "location": "Daresbury, United Kingdom",
+    "type": "Festival"
+  },
+  {
+    "name": "Tomorrowland",
+    "location": "Boom, Belgium",
+    "type": "Festival"
+  },
+  {
+    "name": "Rock Werchter",
+    "location": "Werchter, Belgium",
+    "type": "Festival"
+  },
+  {
+    "name": "Roskilde Festival",
+    "location": "Roskilde, Denmark",
+    "type": "Festival"
+  },
+  {
+    "name": "Sziget Festival",
+    "location": "Budapest, Hungary",
+    "type": "Festival"
+  },
+  {
+    "name": "Primavera Sound",
+    "location": "Barcelona, Spain",
+    "type": "Festival"
+  },
+  {
+    "name": "Mad Cool Festival",
+    "location": "Madrid, Spain",
+    "type": "Festival"
+  },
+  {
+    "name": "Rock am Ring",
+    "location": "Nürburg, Germany",
+    "type": "Festival"
+  },
+  {
+    "name": "Wacken Open Air",
+    "location": "Wacken, Germany",
+    "type": "Festival"
+  },
+  {
+    "name": "Montreux Jazz Festival",
+    "location": "Montreux, Switzerland",
+    "type": "Festival"
+  },
+  {
+    "name": "EXIT Festival",
+    "location": "Novi Sad, Serbia",
+    "type": "Festival"
+  },
+  {
+    "name": "Coachella",
+    "location": "Indio, United States",
+    "type": "Festival"
+  },
+  {
+    "name": "Lollapalooza",
+    "location": "Chicago, United States",
+    "type": "Festival"
+  },
+  {
+    "name": "Austin City Limits Festival",
+    "location": "Austin, United States",
+    "type": "Festival"
+  },
+  {
+    "name": "Electric Daisy Carnival",
+    "location": "Las Vegas, United States",
+    "type": "Festival"
+  },
+  {
+    "name": "Ultra Music Festival",
+    "location": "Miami, United States",
+    "type": "Festival"
+  },
+  {
+    "name": "Rock in Rio",
+    "location": "Rio de Janeiro, Brazil",
+    "type": "Festival"
+  },
+  {
+    "name": "Fuji Rock Festival",
+    "location": "Naeba, Japan",
+    "type": "Festival"
+  },
+  {
+    "name": "WOMADelaide",
+    "location": "Adelaide, Australia",
+    "type": "Festival"
+  },
+  {
+    "name": "Mawazine",
+    "location": "Rabat, Morocco",
+    "type": "Festival"
+  },
+  {
+    "name": "Shakespeare’s Globe",
+    "location": "London, United Kingdom",
+    "type": "Theatre"
+  },
+  {
+    "name": "Theatre Royal Drury Lane",
+    "location": "London, United Kingdom",
+    "type": "Theatre"
+  },
+  {
+    "name": "Royal National Theatre",
+    "location": "London, United Kingdom",
+    "type": "Theatre"
+  },
+  {
+    "name": "Royal Shakespeare Theatre",
+    "location": "Stratford-upon-Avon, United Kingdom",
+    "type": "Theatre"
+  },
+  {
+    "name": "Edinburgh Playhouse",
+    "location": "Edinburgh, United Kingdom",
+    "type": "Theatre"
+  },
+  {
+    "name": "Abbey Theatre",
+    "location": "Dublin, Ireland",
+    "type": "Theatre"
+  },
+  {
+    "name": "Comédie-Française",
+    "location": "Paris, France",
+    "type": "Theatre"
+  },
+  {
+    "name": "Burgtheater",
+    "location": "Vienna, Austria",
+    "type": "Theatre"
+  },
+  {
+    "name": "Deutsches Theater",
+    "location": "Berlin, Germany",
+    "type": "Theatre"
+  },
+  {
+    "name": "Teatro Español",
+    "location": "Madrid, Spain",
+    "type": "Theatre"
+  },
+  {
+    "name": "Radio City Music Hall",
+    "location": "New York, United States",
+    "type": "Theatre"
+  },
+  {
+    "name": "Gershwin Theatre",
+    "location": "New York, United States",
+    "type": "Theatre"
+  },
+  {
+    "name": "Fox Theatre",
+    "location": "Detroit, United States",
+    "type": "Theatre"
+  },
+  {
+    "name": "Pantages Theatre",
+    "location": "Los Angeles, United States",
+    "type": "Theatre"
+  },
+  {
+    "name": "Teatro Colón theatre setting",
+    "location": "Buenos Aires, Argentina",
+    "type": "Theatre"
+  },
+  {
+    "name": "Market Theatre",
+    "location": "Johannesburg, South Africa",
+    "type": "Theatre"
+  },
+  {
+    "name": "Kabuki-za",
+    "location": "Tokyo, Japan",
+    "type": "Theatre"
+  },
+  {
+    "name": "Esplanade Theatre",
+    "location": "Singapore",
+    "type": "Theatre"
+  },
+  {
+    "name": "Princess Theatre",
+    "location": "Melbourne, Australia",
+    "type": "Theatre"
+  },
+  {
+    "name": "The Civic",
+    "location": "Auckland, New Zealand",
+    "type": "Theatre"
+  },
+  {
+    "name": "Royal Opera House",
+    "location": "London, United Kingdom",
+    "type": "Opera house"
+  },
+  {
+    "name": "Palais Garnier",
+    "location": "Paris, France",
+    "type": "Opera house"
+  },
+  {
+    "name": "Opéra Bastille",
+    "location": "Paris, France",
+    "type": "Opera house"
+  },
+  {
+    "name": "La Scala",
+    "location": "Milan, Italy",
+    "type": "Opera house"
+  },
+  {
+    "name": "Teatro di San Carlo",
+    "location": "Naples, Italy",
+    "type": "Opera house"
+  },
+  {
+    "name": "Teatro La Fenice",
+    "location": "Venice, Italy",
+    "type": "Opera house"
+  },
+  {
+    "name": "Vienna State Opera",
+    "location": "Vienna, Austria",
+    "type": "Opera house"
+  },
+  {
+    "name": "Semperoper",
+    "location": "Dresden, Germany",
+    "type": "Opera house"
+  },
+  {
+    "name": "Bayreuth Festspielhaus",
+    "location": "Bayreuth, Germany",
+    "type": "Opera house"
+  },
+  {
+    "name": "Hungarian State Opera",
+    "location": "Budapest, Hungary",
+    "type": "Opera house"
+  },
+  {
+    "name": "Royal Swedish Opera",
+    "location": "Stockholm, Sweden",
+    "type": "Opera house"
+  },
+  {
+    "name": "Oslo Opera House",
+    "location": "Oslo, Norway",
+    "type": "Opera house"
+  },
+  {
+    "name": "Bolshoi Theatre",
+    "location": "Moscow, Russia",
+    "type": "Opera house"
+  },
+  {
+    "name": "Mariinsky Theatre",
+    "location": "Saint Petersburg, Russia",
+    "type": "Opera house"
+  },
+  {
+    "name": "Metropolitan Opera House",
+    "location": "New York, United States",
+    "type": "Opera house"
+  },
+  {
+    "name": "War Memorial Opera House",
+    "location": "San Francisco, United States",
+    "type": "Opera house"
+  },
+  {
+    "name": "Teatro Colón",
+    "location": "Buenos Aires, Argentina",
+    "type": "Opera house"
+  },
+  {
+    "name": "Theatro Municipal",
+    "location": "Rio de Janeiro, Brazil",
+    "type": "Opera house"
+  },
+  {
+    "name": "Cairo Opera House",
+    "location": "Cairo, Egypt",
+    "type": "Opera house"
+  },
+  {
+    "name": "Royal Opera House Muscat",
+    "location": "Muscat, Oman",
+    "type": "Opera house"
+  },
+  {
+    "name": "Dubai Opera",
+    "location": "Dubai, United Arab Emirates",
+    "type": "Opera house"
+  },
+  {
+    "name": "National Centre for the Performing Arts",
+    "location": "Beijing, China",
+    "type": "Opera house"
+  },
+  {
+    "name": "Sydney Opera House",
+    "location": "Sydney, Australia",
+    "type": "Opera house"
+  },
+  {
+    "name": "The Cavern Club",
+    "location": "Liverpool, United Kingdom",
+    "type": "Bar"
+  },
+  {
+    "name": "Ronnie Scott’s Jazz Club",
+    "location": "London, United Kingdom",
+    "type": "Bar"
+  },
+  {
+    "name": "The Temple Bar",
+    "location": "Dublin, Ireland",
+    "type": "Bar"
+  },
+  {
+    "name": "Harry’s New York Bar",
+    "location": "Paris, France",
+    "type": "Bar"
+  },
+  {
+    "name": "Hofbräuhaus",
+    "location": "Munich, Germany",
+    "type": "Bar"
+  },
+  {
+    "name": "Sloppy Joe’s Bar",
+    "location": "Havana, Cuba",
+    "type": "Bar"
+  },
+  {
+    "name": "El Floridita",
+    "location": "Havana, Cuba",
+    "type": "Bar"
+  },
+  {
+    "name": "Preservation Hall",
+    "location": "New Orleans, United States",
+    "type": "Bar"
+  },
+  {
+    "name": "Village Vanguard",
+    "location": "New York, United States",
+    "type": "Bar"
+  },
+  {
+    "name": "Blue Note Jazz Club",
+    "location": "New York, United States",
+    "type": "Bar"
+  },
+  {
+    "name": "The Green Mill",
+    "location": "Chicago, United States",
+    "type": "Bar"
+  },
+  {
+    "name": "Whisky a Go Go",
+    "location": "West Hollywood, United States",
+    "type": "Bar"
+  },
+  {
+    "name": "The Baxter Inn",
+    "location": "Sydney, Australia",
+    "type": "Bar"
+  },
+  {
+    "name": "Bar High Five",
+    "location": "Tokyo, Japan",
+    "type": "Bar"
+  },
+  {
+    "name": "The Piano Bar",
+    "location": "Cape Town, South Africa",
+    "type": "Bar"
+  },
+  {
+    "name": "Café de Flore",
+    "location": "Paris, France",
+    "type": "Cafe"
+  },
+  {
+    "name": "Les Deux Magots",
+    "location": "Paris, France",
+    "type": "Cafe"
+  },
+  {
+    "name": "Café Central",
+    "location": "Vienna, Austria",
+    "type": "Cafe"
+  },
+  {
+    "name": "Café Sacher",
+    "location": "Vienna, Austria",
+    "type": "Cafe"
+  },
+  {
+    "name": "Caffè Florian",
+    "location": "Venice, Italy",
+    "type": "Cafe"
+  },
+  {
+    "name": "Antico Caffè Greco",
+    "location": "Rome, Italy",
+    "type": "Cafe"
+  },
+  {
+    "name": "Café A Brasileira",
+    "location": "Lisbon, Portugal",
+    "type": "Cafe"
+  },
+  {
+    "name": "Café Majestic",
+    "location": "Porto, Portugal",
+    "type": "Cafe"
+  },
+  {
+    "name": "Café Tortoni",
+    "location": "Buenos Aires, Argentina",
+    "type": "Cafe"
+  },
+  {
+    "name": "Confeitaria Colombo",
+    "location": "Rio de Janeiro, Brazil",
+    "type": "Cafe"
+  },
+  {
+    "name": "Café du Monde",
+    "location": "New Orleans, United States",
+    "type": "Cafe"
+  },
+  {
+    "name": "Caffè Reggio",
+    "location": "New York, United States",
+    "type": "Cafe"
+  },
+  {
+    "name": "El Fishawy",
+    "location": "Cairo, Egypt",
+    "type": "Cafe"
+  },
+  {
+    "name": "Indian Coffee House",
+    "location": "Kolkata, India",
+    "type": "Cafe"
+  },
+  {
+    "name": "The Coffee Academics",
+    "location": "Hong Kong, China",
+    "type": "Cafe"
+  },
+  {
+    "name": "Ministry of Sound",
+    "location": "London, United Kingdom",
+    "type": "Nightclub"
+  },
+  {
+    "name": "fabric",
+    "location": "London, United Kingdom",
+    "type": "Nightclub"
+  },
+  {
+    "name": "Printworks hall setting",
+    "location": "London, United Kingdom",
+    "type": "Nightclub"
+  },
+  {
+    "name": "Berghain",
+    "location": "Berlin, Germany",
+    "type": "Nightclub"
+  },
+  {
+    "name": "Tresor",
+    "location": "Berlin, Germany",
+    "type": "Nightclub"
+  },
+  {
+    "name": "Bootshaus",
+    "location": "Cologne, Germany",
+    "type": "Nightclub"
+  },
+  {
+    "name": "Pacha Ibiza",
+    "location": "Ibiza, Spain",
+    "type": "Nightclub"
+  },
+  {
+    "name": "Amnesia",
+    "location": "Ibiza, Spain",
+    "type": "Nightclub"
+  },
+  {
+    "name": "Ushuaïa Ibiza",
+    "location": "Ibiza, Spain",
+    "type": "Nightclub"
+  },
+  {
+    "name": "Hï Ibiza",
+    "location": "Ibiza, Spain",
+    "type": "Nightclub"
+  },
+  {
+    "name": "DC-10",
+    "location": "Ibiza, Spain",
+    "type": "Nightclub"
+  },
+  {
+    "name": "Rex Club",
+    "location": "Paris, France",
+    "type": "Nightclub"
+  },
+  {
+    "name": "Paradiso",
+    "location": "Amsterdam, Netherlands",
+    "type": "Nightclub"
+  },
+  {
+    "name": "Zouk",
+    "location": "Singapore",
+    "type": "Nightclub"
+  },
+  {
+    "name": "Marquee Singapore",
+    "location": "Singapore",
+    "type": "Nightclub"
+  },
+  {
+    "name": "Octagon",
+    "location": "Seoul, South Korea",
+    "type": "Nightclub"
+  },
+  {
+    "name": "Green Valley",
+    "location": "Camboriú, Brazil",
+    "type": "Nightclub"
+  },
+  {
+    "name": "Warung Beach Club",
+    "location": "Itajaí, Brazil",
+    "type": "Nightclub"
+  },
+  {
+    "name": "LIV",
+    "location": "Miami Beach, United States",
+    "type": "Nightclub"
+  },
+  {
+    "name": "XS Nightclub",
+    "location": "Las Vegas, United States",
+    "type": "Nightclub"
+  },
+  {
+    "name": "Omnia",
+    "location": "Las Vegas, United States",
+    "type": "Nightclub"
+  },
+  {
+    "name": "The Warehouse Project",
+    "location": "Manchester, United Kingdom",
+    "type": "Nightclub"
+  },
+  {
+    "name": "Westminster Abbey",
+    "location": "London, United Kingdom",
+    "type": "Church"
+  },
+  {
+    "name": "St Martin-in-the-Fields",
+    "location": "London, United Kingdom",
+    "type": "Church"
+  },
+  {
+    "name": "St George’s Chapel",
+    "location": "Windsor, United Kingdom",
+    "type": "Church"
+  },
+  {
+    "name": "Bath Abbey",
+    "location": "Bath, United Kingdom",
+    "type": "Church"
+  },
+  {
+    "name": "Sainte-Chapelle",
+    "location": "Paris, France",
+    "type": "Church"
+  },
+  {
+    "name": "Sacré-Cœur Basilica",
+    "location": "Paris, France",
+    "type": "Church"
+  },
+  {
+    "name": "St Peter’s Basilica",
+    "location": "Vatican City",
+    "type": "Church"
+  },
+  {
+    "name": "Santa Maria Maggiore",
+    "location": "Rome, Italy",
+    "type": "Church"
+  },
+  {
+    "name": "Basilica of St Francis",
+    "location": "Assisi, Italy",
+    "type": "Church"
+  },
+  {
+    "name": "Sagrada Família",
+    "location": "Barcelona, Spain",
+    "type": "Church"
+  },
+  {
+    "name": "Church of the Holy Sepulchre",
+    "location": "Jerusalem",
+    "type": "Church"
+  },
+  {
+    "name": "Church of the Nativity",
+    "location": "Bethlehem",
+    "type": "Church"
+  },
+  {
+    "name": "Church of the Savior on Spilled Blood",
+    "location": "Saint Petersburg, Russia",
+    "type": "Church"
+  },
+  {
+    "name": "Hallgrímskirkja",
+    "location": "Reykjavík, Iceland",
+    "type": "Church"
+  },
+  {
+    "name": "Grundtvig’s Church",
+    "location": "Copenhagen, Denmark",
+    "type": "Church"
+  },
+  {
+    "name": "Basilica of Our Lady of Guadalupe",
+    "location": "Mexico City, Mexico",
+    "type": "Church"
+  },
+  {
+    "name": "Basilica of the National Shrine",
+    "location": "Washington, United States",
+    "type": "Church"
+  },
+  {
+    "name": "Bom Jesus Basilica",
+    "location": "Goa, India",
+    "type": "Church"
+  },
+  {
+    "name": "San Agustin Church",
+    "location": "Manila, Philippines",
+    "type": "Church"
+  },
+  {
+    "name": "Church of the Good Shepherd",
+    "location": "Lake Tekapo, New Zealand",
+    "type": "Church"
+  },
+  {
+    "name": "St Paul’s Cathedral",
+    "location": "London, United Kingdom",
+    "type": "Cathedral"
+  },
+  {
+    "name": "Canterbury Cathedral",
+    "location": "Canterbury, United Kingdom",
+    "type": "Cathedral"
+  },
+  {
+    "name": "York Minster",
+    "location": "York, United Kingdom",
+    "type": "Cathedral"
+  },
+  {
+    "name": "Durham Cathedral",
+    "location": "Durham, United Kingdom",
+    "type": "Cathedral"
+  },
+  {
+    "name": "Salisbury Cathedral",
+    "location": "Salisbury, United Kingdom",
+    "type": "Cathedral"
+  },
+  {
+    "name": "Liverpool Cathedral",
+    "location": "Liverpool, United Kingdom",
+    "type": "Cathedral"
+  },
+  {
+    "name": "Winchester Cathedral",
+    "location": "Winchester, United Kingdom",
+    "type": "Cathedral"
+  },
+  {
+    "name": "Notre-Dame de Paris",
+    "location": "Paris, France",
+    "type": "Cathedral"
+  },
+  {
+    "name": "Chartres Cathedral",
+    "location": "Chartres, France",
+    "type": "Cathedral"
+  },
+  {
+    "name": "Reims Cathedral",
+    "location": "Reims, France",
+    "type": "Cathedral"
+  },
+  {
+    "name": "Cologne Cathedral",
+    "location": "Cologne, Germany",
+    "type": "Cathedral"
+  },
+  {
+    "name": "Aachen Cathedral",
+    "location": "Aachen, Germany",
+    "type": "Cathedral"
+  },
+  {
+    "name": "Milan Cathedral",
+    "location": "Milan, Italy",
+    "type": "Cathedral"
+  },
+  {
+    "name": "Florence Cathedral",
+    "location": "Florence, Italy",
+    "type": "Cathedral"
+  },
+  {
+    "name": "Seville Cathedral",
+    "location": "Seville, Spain",
+    "type": "Cathedral"
+  },
+  {
+    "name": "Santiago de Compostela Cathedral",
+    "location": "Santiago de Compostela, Spain",
+    "type": "Cathedral"
+  },
+  {
+    "name": "St Stephen’s Cathedral",
+    "location": "Vienna, Austria",
+    "type": "Cathedral"
+  },
+  {
+    "name": "St Vitus Cathedral",
+    "location": "Prague, Czechia",
+    "type": "Cathedral"
+  },
+  {
+    "name": "Nidaros Cathedral",
+    "location": "Trondheim, Norway",
+    "type": "Cathedral"
+  },
+  {
+    "name": "Helsinki Cathedral",
+    "location": "Helsinki, Finland",
+    "type": "Cathedral"
+  },
+  {
+    "name": "St Patrick’s Cathedral",
+    "location": "Dublin, Ireland",
+    "type": "Cathedral"
+  },
+  {
+    "name": "St Patrick’s Cathedral",
+    "location": "New York, United States",
+    "type": "Cathedral"
+  },
+  {
+    "name": "Washington National Cathedral",
+    "location": "Washington, United States",
+    "type": "Cathedral"
+  },
+  {
+    "name": "Cathedral of Saint John the Divine",
+    "location": "New York, United States",
+    "type": "Cathedral"
+  },
+  {
+    "name": "Mexico City Metropolitan Cathedral",
+    "location": "Mexico City, Mexico",
+    "type": "Cathedral"
+  },
+  {
+    "name": "Brasília Cathedral",
+    "location": "Brasília, Brazil",
+    "type": "Cathedral"
+  },
+  {
+    "name": "Sé Cathedral",
+    "location": "São Paulo, Brazil",
+    "type": "Cathedral"
+  },
+  {
+    "name": "St George’s Cathedral",
+    "location": "Cape Town, South Africa",
+    "type": "Cathedral"
+  },
+  {
+    "name": "St Mary’s Cathedral",
+    "location": "Sydney, Australia",
+    "type": "Cathedral"
+  },
+  {
+    "name": "Christ Church Cathedral",
+    "location": "Zanzibar, Tanzania",
+    "type": "Cathedral"
+  },
+  {
+    "name": "Manila Cathedral",
+    "location": "Manila, Philippines",
+    "type": "Cathedral"
+  },
+  {
+    "name": "Royal Albert Hall",
+    "location": "London, United Kingdom",
+    "type": "Arena / concert hall"
+  },
+  {
+    "name": "The O2",
+    "location": "London, United Kingdom",
+    "type": "Arena / concert hall"
+  },
+  {
+    "name": "AO Arena",
+    "location": "Manchester, United Kingdom",
+    "type": "Arena / concert hall"
+  },
+  {
+    "name": "Accor Arena",
+    "location": "Paris, France",
+    "type": "Arena / concert hall"
+  },
+  {
+    "name": "Concertgebouw",
+    "location": "Amsterdam, Netherlands",
+    "type": "Arena / concert hall"
+  },
+  {
+    "name": "Musikverein",
+    "location": "Vienna, Austria",
+    "type": "Arena / concert hall"
+  },
+  {
+    "name": "Elbphilharmonie",
+    "location": "Hamburg, Germany",
+    "type": "Arena / concert hall"
+  },
+  {
+    "name": "Berlin Philharmonie",
+    "location": "Berlin, Germany",
+    "type": "Arena / concert hall"
+  },
+  {
+    "name": "Carnegie Hall",
+    "location": "New York, United States",
+    "type": "Arena / concert hall"
+  },
+  {
+    "name": "Madison Square Garden",
+    "location": "New York, United States",
+    "type": "Arena / concert hall"
+  },
+  {
+    "name": "Hollywood Bowl",
+    "location": "Los Angeles, United States",
+    "type": "Arena / concert hall"
+  },
+  {
+    "name": "Walt Disney Concert Hall",
+    "location": "Los Angeles, United States",
+    "type": "Arena / concert hall"
+  },
+  {
+    "name": "Red Rocks Amphitheatre",
+    "location": "Morrison, United States",
+    "type": "Arena / concert hall"
+  },
+  {
+    "name": "Ryman Auditorium",
+    "location": "Nashville, United States",
+    "type": "Arena / concert hall"
+  },
+  {
+    "name": "Boston Symphony Hall",
+    "location": "Boston, United States",
+    "type": "Arena / concert hall"
+  },
+  {
+    "name": "Palacio de Bellas Artes",
+    "location": "Mexico City, Mexico",
+    "type": "Arena / concert hall"
+  },
+  {
+    "name": "Sala São Paulo",
+    "location": "São Paulo, Brazil",
+    "type": "Arena / concert hall"
+  },
+  {
+    "name": "Suntory Hall",
+    "location": "Tokyo, Japan",
+    "type": "Arena / concert hall"
+  },
+  {
+    "name": "Nippon Budokan",
+    "location": "Tokyo, Japan",
+    "type": "Arena / concert hall"
+  },
+  {
+    "name": "Hong Kong Cultural Centre",
+    "location": "Hong Kong, China",
+    "type": "Arena / concert hall"
+  },
+  {
+    "name": "Taipei National Concert Hall",
+    "location": "Taipei, Taiwan",
+    "type": "Arena / concert hall"
+  },
+  {
+    "name": "Seoul Arts Center",
+    "location": "Seoul, South Korea",
+    "type": "Arena / concert hall"
+  },
+  {
+    "name": "Artscape Opera House hall setting",
+    "location": "Cape Town, South Africa",
+    "type": "Arena / concert hall"
+  },
+  {
+    "name": "Melbourne Recital Centre",
+    "location": "Melbourne, Australia",
+    "type": "Arena / concert hall"
+  }
+]

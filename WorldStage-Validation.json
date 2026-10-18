@@ -1,0 +1,20 @@
+{
+  "venues": 230,
+  "categories": 10,
+  "impulseSamples": 134400,
+  "decodedFilePeak": 0.30244898796081543,
+  "bypassWorks": true,
+  "mutedPeak": 0,
+  "crowdPeak": 0.034989699721336365,
+  "searchMatches": 5,
+  "cathedralMatches": 31,
+  "ok": true,
+  "testedArtifact": "WorldStage-1.0.0-Windows.exe",
+  "portableExitCode": 0,
+  "testDate": "2026-10-18",
+  "notTested": [
+    "Physical microphone and audio-interface inputs",
+    "Virtual audio cable routing",
+    "Perceptual realism and measured venue accuracy"
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "name": "worldstage",
+  "version": "1.0.0",
+  "description": "Venue acoustics and procedural audience immersion",
+  "author": "WorldStage",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder --win portable --x64"
+  },
+  "devDependencies": {
+    "electron": "44.9.0",
+    "electron-builder": "26.0.12"
+  },
+  "build": {
+    "appId": "local.worldstage.audio",
+    "productName": "WorldStage",
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "main.js",
+      "index.html",
+      "style.css",
+      "app.js",
+      "venues.json",
+      "icon.ico"
+    ],
+    "win": {
+      "target": "portable",
+      "signAndEditExecutable": false,
+      "icon": "icon.ico"
+    },
+    "portable": {
+      "artifactName": "WorldStage-1.0.0-Windows.exe"
+    }
+  }
+}
