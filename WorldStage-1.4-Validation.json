@@ -1,0 +1,71 @@
+{
+  "venues": 230,
+  "categories": 10,
+  "impulseSamples": 86814,
+  "wetOnlyChecks": [
+    {
+      "mode": "convolution",
+      "wetRms": 0.11359430472135838,
+      "tailRms": 0.037295396292880034
+    },
+    {
+      "mode": "compatibility",
+      "wetRms": 0.023875898259760157,
+      "tailRms": 0.007758549714949893
+    }
+  ],
+  "wetTailVerified": true,
+  "fullWetRemovesDry": true,
+  "decodedFilePeak": 0.2730588912963867,
+  "liveGraphChecks": [
+    {
+      "mode": "convolution",
+      "wetRms": 0.30127846657998547,
+      "outputPeak": 0.29554420709609985,
+      "dryGain": 6.123234262925839e-17,
+      "tailRms": 0.31323015557985306
+    },
+    {
+      "mode": "compatibility",
+      "wetRms": 0.07377525162997108,
+      "outputPeak": 0.09223540127277374,
+      "dryGain": 6.123234262925839e-17,
+      "tailRms": 0.014721550250701038
+    }
+  ],
+  "liveWetPathVerified": true,
+  "bypassWorks": true,
+  "mutedPeak": 0,
+  "crowdPeak": 0.031781427562236786,
+  "searchMatches": 5,
+  "cathedralMatches": 31,
+  "stadiumPresets": 36,
+  "stereoIR": true,
+  "importedIRWorks": true,
+  "simulationRestored": true,
+  "noExternalBridge": true,
+  "noStreamingControls": true,
+  "stability": {
+    "finite": true,
+    "peak": 0.03945723921060562,
+    "endRms": 1.3693405218658985e-8
+  },
+  "silence": {
+    "finite": true,
+    "peak": 0,
+    "endRms": 0
+  },
+  "legacyStability": {
+    "finite": true,
+    "peak": 1.8777107031750198e+21,
+    "endRms": 356166711788519500000
+  },
+  "stableAndSilent": true,
+  "ok": true,
+  "portableExitCode": 0,
+  "regressionTests": {
+    "passed": 4,
+    "failed": 0
+  },
+  "testedArtifact": "WorldStage-1.4.0-Windows.exe"
+}
