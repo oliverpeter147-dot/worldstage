@@ -1,0 +1,33 @@
+{
+  "venues": 230,
+  "categories": 10,
+  "impulseSamples": 86814,
+  "decodedFilePeak": 0.27565518021583557,
+  "bypassWorks": true,
+  "mutedPeak": 0,
+  "crowdPeak": 0.03689779341220856,
+  "searchMatches": 5,
+  "cathedralMatches": 31,
+  "spotifyBridgeAvailable": true,
+  "stadiumPresets": 36,
+  "stereoIR": true,
+  "importedIRWorks": true,
+  "simulationRestored": true,
+  "invalidClientRejected": true,
+  "ok": true,
+  "testedArtifact": "WorldStage-1.1.0-Windows.exe",
+  "portableExitCode": 0,
+  "testDate": "2026-10-18",
+  "automatedServiceAndAcousticTests": {
+    "passed": 8,
+    "failed": 0,
+    "spotifyApi": "mocked",
+    "oauthCallback": "real loopback HTTP"
+  },
+  "notTested": [
+    "Live Spotify account authorization and playback: Client ID not supplied",
+    "Measured agreement with real stadium acoustics",
+    "Perceptual listening quality",
+    "Physical audio input and virtual cable"
+  ]
+}

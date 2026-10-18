@@ -1,4 +1,4 @@
-# WorldStage
+# WorldStage 1.1
 
 A Windows music player with simulated venue acoustics and audience immersion.
 
@@ -6,7 +6,13 @@ A Windows music player with simulated venue acoustics and audience immersion.
 
 The portable app needs no installation. Open the `.exe`, choose a venue, open a music file, and start the audience. This is an unsigned build; Windows may display a publisher warning.
 
-![WorldStage preview](WorldStage-Preview.png)
+![WorldStage preview](WorldStage-1.1-Preview.png)
+
+## New in 1.1
+
+Stadiums now use delayed stand reflections, listening-position geometry, roof enclosure, audience absorption and a frequency-dependent tail. Import a measured WAV impulse response to replace the simulation. Spotify Connect remote controls add account authorization, device selection, playback controls and track/album/playlist links.
+
+Spotify playback remains in Spotify and is not processed by venue effects. Setup requires your own developer Client ID and the access Spotify grants it; playback commands require Premium. See the guide for the exact redirect URI and restrictions.
 
 ## Features
 
@@ -20,11 +26,11 @@ The portable app needs no installation. Open the `.exe`, choose a venue, open a 
 
 ## Acoustic scope
 
-Presets use category-based estimates and generated stereo impulse responses. They are not measured replicas of the named venues. The library is curated and not exhaustive, and includes historical settings. Venue names imply no affiliation or endorsement. The built-in crowd is noise-based synthesis rather than recorded people or intelligible chants. Load a real crowd recording for a more authentic audience.
+Stadium presets use distinct estimated virtual scenes, not surveyed geometry. Other presets use category-based estimates. All bundled responses are synthetic. They are not measured replicas of the named venues. The library is curated and not exhaustive, and includes historical settings. Venue names imply no affiliation or endorsement. The built-in crowd is noise-based synthesis rather than recorded people or intelligible chants. Load a real crowd recording for a more authentic audience.
 
 WorldStage processes its own playback or a connected audio input. Audio from another application requires a separately installed virtual audio cable. It does not automatically apply effects to every Windows sound. Use headphones with microphone input to prevent acoustic feedback.
 
-Read [the quick-start guide](WorldStage-Quick-Start.md) for playback and routing instructions.
+Read [the quick-start guide](WorldStage-1.1-Guide.md) for playback and routing instructions.
 
 ## Build
 
@@ -32,6 +38,7 @@ Requires Node.js and npm. From this repository:
 
 ```sh
 npm ci
+npm test
 npm start
 npm run dist
 ```
@@ -40,6 +47,8 @@ The executable is built with Electron 44.9.0 and electron-builder 26.0.12. Build
 
 ## Validation
 
-The Windows portable executable passed startup, decoded WAV playback, generated crowd output, effects bypass, master mute, venue search and category filtering checks. See [the validation results](WorldStage-Validation.json). Physical live audio inputs and virtual-cable routing require checking on your own hardware. Acoustic authenticity has not been validated against measurements.
+The Windows portable executable passed startup, decoded WAV playback, generated crowd output, effects bypass, master mute, venue search and category filtering checks. See [the validation results](WorldStage-1.1-Validation.json). Physical live audio inputs and virtual-cable routing require checking on your own hardware. Acoustic authenticity has not been validated against measurements.
+
+Eight automated acoustic/Spotify-service tests pass using mocked Spotify API responses and a real loopback OAuth callback. A live Spotify account has not been tested because no Client ID was supplied.
 
 Release downloads include the executable, editable source archive, guide and SHA-256 checksum. Electron and its dependencies retain their own third-party notices.

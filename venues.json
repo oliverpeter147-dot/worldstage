@@ -2,182 +2,470 @@
   {
     "name": "Wembley Stadium",
     "location": "London, United Kingdom",
-    "type": "Football stadium"
+    "type": "Football stadium",
+    "acoustics": {
+      "length": 213,
+      "width": 151,
+      "height": 42,
+      "roof": 0.48,
+      "decay": 1.7,
+      "label": "large bowl with partial canopy"
+    }
   },
   {
     "name": "Old Trafford",
     "location": "Manchester, United Kingdom",
-    "type": "Football stadium"
+    "type": "Football stadium",
+    "acoustics": {
+      "length": 180,
+      "width": 137,
+      "height": 30,
+      "roof": 0.22,
+      "decay": 1.42,
+      "label": "compact open bowl"
+    }
   },
   {
     "name": "Anfield",
     "location": "Liverpool, United Kingdom",
-    "type": "Football stadium"
+    "type": "Football stadium",
+    "acoustics": {
+      "length": 232,
+      "width": 170,
+      "height": 45,
+      "roof": 0.15,
+      "decay": 1.8,
+      "label": "broad open bowl"
+    }
   },
   {
     "name": "Emirates Stadium",
     "location": "London, United Kingdom",
-    "type": "Football stadium"
+    "type": "Football stadium",
+    "acoustics": {
+      "length": 199,
+      "width": 142,
+      "height": 38,
+      "roof": 0.7,
+      "decay": 2.08,
+      "label": "canopied virtual bowl"
+    }
   },
   {
     "name": "Tottenham Hotspur Stadium",
     "location": "London, United Kingdom",
-    "type": "Football stadium"
+    "type": "Football stadium",
+    "acoustics": {
+      "length": 189,
+      "width": 147,
+      "height": 34,
+      "roof": 0.38,
+      "decay": 1.61,
+      "label": "medium bowl with covered stands"
+    }
   },
   {
     "name": "Celtic Park",
     "location": "Glasgow, United Kingdom",
-    "type": "Football stadium"
+    "type": "Football stadium",
+    "acoustics": {
+      "length": 217,
+      "width": 154,
+      "height": 42,
+      "roof": 0.48,
+      "decay": 1.74,
+      "label": "large bowl with partial canopy"
+    }
   },
   {
     "name": "Hampden Park",
     "location": "Glasgow, United Kingdom",
-    "type": "Football stadium"
+    "type": "Football stadium",
+    "acoustics": {
+      "length": 183,
+      "width": 140,
+      "height": 30,
+      "roof": 0.22,
+      "decay": 1.45,
+      "label": "compact open bowl"
+    }
   },
   {
     "name": "Principality Stadium",
     "location": "Cardiff, United Kingdom",
-    "type": "Football stadium"
+    "type": "Football stadium",
+    "acoustics": {
+      "length": 236,
+      "width": 174,
+      "height": 45,
+      "roof": 0.15,
+      "decay": 1.83,
+      "label": "broad open bowl"
+    }
   },
   {
     "name": "Stade de France",
     "location": "Saint-Denis, France",
-    "type": "Football stadium"
+    "type": "Football stadium",
+    "acoustics": {
+      "length": 202,
+      "width": 145,
+      "height": 38,
+      "roof": 0.7,
+      "decay": 2.12,
+      "label": "canopied virtual bowl"
+    }
   },
   {
     "name": "Santiago Bernabéu",
     "location": "Madrid, Spain",
-    "type": "Football stadium"
+    "type": "Football stadium",
+    "acoustics": {
+      "length": 193,
+      "width": 149,
+      "height": 34,
+      "roof": 0.38,
+      "decay": 1.64,
+      "label": "medium bowl with covered stands"
+    }
   },
   {
     "name": "Camp Nou",
     "location": "Barcelona, Spain",
-    "type": "Football stadium"
+    "type": "Football stadium",
+    "acoustics": {
+      "length": 221,
+      "width": 157,
+      "height": 42,
+      "roof": 0.48,
+      "decay": 1.77,
+      "label": "large bowl with partial canopy"
+    }
   },
   {
     "name": "Estádio da Luz",
     "location": "Lisbon, Portugal",
-    "type": "Football stadium"
+    "type": "Football stadium",
+    "acoustics": {
+      "length": 187,
+      "width": 142,
+      "height": 30,
+      "roof": 0.22,
+      "decay": 1.47,
+      "label": "compact open bowl"
+    }
   },
   {
     "name": "San Siro",
     "location": "Milan, Italy",
-    "type": "Football stadium"
+    "type": "Football stadium",
+    "acoustics": {
+      "length": 241,
+      "width": 177,
+      "height": 45,
+      "roof": 0.15,
+      "decay": 1.87,
+      "label": "broad open bowl"
+    }
   },
   {
     "name": "Stadio Olimpico",
     "location": "Rome, Italy",
-    "type": "Football stadium"
+    "type": "Football stadium",
+    "acoustics": {
+      "length": 206,
+      "width": 147,
+      "height": 38,
+      "roof": 0.7,
+      "decay": 2.16,
+      "label": "canopied virtual bowl"
+    }
   },
   {
     "name": "Allianz Arena",
     "location": "Munich, Germany",
-    "type": "Football stadium"
+    "type": "Football stadium",
+    "acoustics": {
+      "length": 196,
+      "width": 152,
+      "height": 34,
+      "roof": 0.38,
+      "decay": 1.67,
+      "label": "medium bowl with covered stands"
+    }
   },
   {
     "name": "Signal Iduna Park",
     "location": "Dortmund, Germany",
-    "type": "Football stadium"
+    "type": "Football stadium",
+    "acoustics": {
+      "length": 225,
+      "width": 160,
+      "height": 42,
+      "roof": 0.48,
+      "decay": 1.8,
+      "label": "large bowl with partial canopy"
+    }
   },
   {
     "name": "Olympiastadion",
     "location": "Berlin, Germany",
-    "type": "Football stadium"
+    "type": "Football stadium",
+    "acoustics": {
+      "length": 190,
+      "width": 145,
+      "height": 30,
+      "roof": 0.22,
+      "decay": 1.5,
+      "label": "compact open bowl"
+    }
   },
   {
     "name": "Johan Cruijff ArenA",
     "location": "Amsterdam, Netherlands",
-    "type": "Football stadium"
+    "type": "Football stadium",
+    "acoustics": {
+      "length": 245,
+      "width": 180,
+      "height": 45,
+      "roof": 0.15,
+      "decay": 1.9,
+      "label": "broad open bowl"
+    }
   },
   {
     "name": "Maracanã",
     "location": "Rio de Janeiro, Brazil",
-    "type": "Football stadium"
+    "type": "Football stadium",
+    "acoustics": {
+      "length": 210,
+      "width": 150,
+      "height": 38,
+      "roof": 0.7,
+      "decay": 2.2,
+      "label": "canopied virtual bowl"
+    }
   },
   {
     "name": "La Bombonera",
     "location": "Buenos Aires, Argentina",
-    "type": "Football stadium"
+    "type": "Football stadium",
+    "acoustics": {
+      "length": 200,
+      "width": 155,
+      "height": 34,
+      "roof": 0.38,
+      "decay": 1.7,
+      "label": "medium bowl with covered stands"
+    }
   },
   {
     "name": "Estadio Monumental",
     "location": "Buenos Aires, Argentina",
-    "type": "Football stadium"
+    "type": "Football stadium",
+    "acoustics": {
+      "length": 229,
+      "width": 163,
+      "height": 42,
+      "roof": 0.48,
+      "decay": 1.83,
+      "label": "large bowl with partial canopy"
+    }
   },
   {
     "name": "Estadio Azteca",
     "location": "Mexico City, Mexico",
-    "type": "Football stadium"
+    "type": "Football stadium",
+    "acoustics": {
+      "length": 193,
+      "width": 148,
+      "height": 30,
+      "roof": 0.22,
+      "decay": 1.53,
+      "label": "compact open bowl"
+    }
   },
   {
     "name": "Rose Bowl",
     "location": "Pasadena, United States",
-    "type": "Football stadium"
+    "type": "Football stadium",
+    "acoustics": {
+      "length": 249,
+      "width": 183,
+      "height": 45,
+      "roof": 0.15,
+      "decay": 1.93,
+      "label": "broad open bowl"
+    }
   },
   {
     "name": "MetLife Stadium",
     "location": "East Rutherford, United States",
-    "type": "Football stadium"
+    "type": "Football stadium",
+    "acoustics": {
+      "length": 214,
+      "width": 153,
+      "height": 38,
+      "roof": 0.7,
+      "decay": 2.24,
+      "label": "canopied virtual bowl"
+    }
   },
   {
     "name": "Mercedes-Benz Stadium",
     "location": "Atlanta, United States",
-    "type": "Football stadium"
+    "type": "Football stadium",
+    "acoustics": {
+      "length": 204,
+      "width": 158,
+      "height": 34,
+      "roof": 0.38,
+      "decay": 1.73,
+      "label": "medium bowl with covered stands"
+    }
   },
   {
     "name": "FNB Stadium",
     "location": "Johannesburg, South Africa",
-    "type": "Football stadium"
+    "type": "Football stadium",
+    "acoustics": {
+      "length": 233,
+      "width": 166,
+      "height": 42,
+      "roof": 0.48,
+      "decay": 1.86,
+      "label": "large bowl with partial canopy"
+    }
   },
   {
     "name": "Cairo International Stadium",
     "location": "Cairo, Egypt",
-    "type": "Football stadium"
+    "type": "Football stadium",
+    "acoustics": {
+      "length": 197,
+      "width": 150,
+      "height": 30,
+      "roof": 0.22,
+      "decay": 1.55,
+      "label": "compact open bowl"
+    }
   },
   {
     "name": "Lusail Stadium",
     "location": "Lusail, Qatar",
-    "type": "Football stadium"
+    "type": "Football stadium",
+    "acoustics": {
+      "length": 254,
+      "width": 186,
+      "height": 45,
+      "roof": 0.15,
+      "decay": 1.97,
+      "label": "broad open bowl"
+    }
   },
   {
     "name": "King Fahd International Stadium",
     "location": "Riyadh, Saudi Arabia",
-    "type": "Football stadium"
+    "type": "Football stadium",
+    "acoustics": {
+      "length": 218,
+      "width": 155,
+      "height": 38,
+      "roof": 0.7,
+      "decay": 2.28,
+      "label": "canopied virtual bowl"
+    }
   },
   {
     "name": "Salt Lake Stadium",
     "location": "Kolkata, India",
-    "type": "Football stadium"
+    "type": "Football stadium",
+    "acoustics": {
+      "length": 207,
+      "width": 161,
+      "height": 34,
+      "roof": 0.38,
+      "decay": 1.76,
+      "label": "medium bowl with covered stands"
+    }
   },
   {
     "name": "Japan National Stadium",
     "location": "Tokyo, Japan",
-    "type": "Football stadium"
+    "type": "Football stadium",
+    "acoustics": {
+      "length": 237,
+      "width": 169,
+      "height": 42,
+      "roof": 0.48,
+      "decay": 1.9,
+      "label": "large bowl with partial canopy"
+    }
   },
   {
     "name": "Seoul World Cup Stadium",
     "location": "Seoul, South Korea",
-    "type": "Football stadium"
+    "type": "Football stadium",
+    "acoustics": {
+      "length": 200,
+      "width": 153,
+      "height": 30,
+      "roof": 0.22,
+      "decay": 1.58,
+      "label": "compact open bowl"
+    }
   },
   {
     "name": "Beijing National Stadium",
     "location": "Beijing, China",
-    "type": "Football stadium"
+    "type": "Football stadium",
+    "acoustics": {
+      "length": 258,
+      "width": 190,
+      "height": 45,
+      "roof": 0.15,
+      "decay": 2,
+      "label": "broad open bowl"
+    }
   },
   {
     "name": "Melbourne Cricket Ground",
     "location": "Melbourne, Australia",
-    "type": "Football stadium"
+    "type": "Football stadium",
+    "acoustics": {
+      "length": 221,
+      "width": 158,
+      "height": 38,
+      "roof": 0.7,
+      "decay": 2.32,
+      "label": "canopied virtual bowl"
+    }
   },
   {
     "name": "Stadium Australia",
     "location": "Sydney, Australia",
-    "type": "Football stadium"
+    "type": "Football stadium",
+    "acoustics": {
+      "length": 211,
+      "width": 163,
+      "height": 34,
+      "roof": 0.38,
+      "decay": 1.79,
+      "label": "medium bowl with covered stands"
+    }
   },
   {
     "name": "Eden Park",
     "location": "Auckland, New Zealand",
-    "type": "Football stadium"
+    "type": "Football stadium",
+    "acoustics": {
+      "length": 241,
+      "width": 172,
+      "height": 42,
+      "roof": 0.48,
+      "decay": 1.93,
+      "label": "large bowl with partial canopy"
+    }
   },
   {
     "name": "Glastonbury Festival",
